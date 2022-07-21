@@ -9,3 +9,4 @@ open.addEventListener('click', () => {
 close.addEventListener('click', () => {
   details_container.classList.remove('show');
 });
+

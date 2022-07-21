@@ -27,18 +27,12 @@
 
                         <h5 class="card-title pet_name">{$pet->getName()}</h5>
                         <p class="card-text pet_decription">{$pet->getDescription()}</p>
-                       
                         <a  class="btn btn-primary btn_favorite"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
-                        <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus" title="{$pet->getContact()}" data-bs-content="6XXX XX XX XX">📱✉️</button>     
+                       
                     </div>
-             
+                    <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus" title="{$pet->getContact()}" data-bs-content="658 23 52 87">📱✉️</button>     
                </div> 
- 
-             
-
-                
-   
-               TAG;
+           TAG;
             } ?>
        </div>
        
@@ -48,9 +42,9 @@
          require_once("src/Views/Components/footer.php");
        ?>
      <script>
-               var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-               var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-                return new bootstrap.Popover(popoverTriggerEl)
+          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
 })
      </script>
     </body>
