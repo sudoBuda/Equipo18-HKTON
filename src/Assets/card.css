@@ -2,7 +2,7 @@
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width:100%;
+    width: 100 vw;
 }
 .pet_card{
     margin:3vh;
@@ -58,4 +58,11 @@
 .show {
     pointer-events: auto;
     opacity: 1;
+}
+
+.image_pet{
+    width: 100%;
+    height: 240px;
+
+
 }
