@@ -5,12 +5,9 @@
             <img src="public/images/logo.png" class="logo slide-in-left">
 
         <h3 class="subtitle">"No vamos a cambiar el mundo ayudando a un animal, pero al menos el mundo habrá cambiado para el."</h3>
-
-        <div class="container_search">
-            <input class="input_search" placeholder="¿Buscas algo en específico?">
-                <button class="btn_search"><i class="bi bi-search"></i></button>
-            </input>
-        </div>
+        <?php
+        require_once("src/Views/Components/bg_animation.php"); 
+        ?>
 
         <div class="filter_dog_cat">
             <button class="btn_dog" id="swich_dog">
