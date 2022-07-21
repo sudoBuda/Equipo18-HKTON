@@ -1,0 +1,93 @@
+footer {
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(235, 228, 229, 0.877);
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    padding: 1% 30px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.caja-copyright {
+    grid-row: 3/4;
+    grid-column: 1/5;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.caja-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-logo img {
+    max-width: 150px;
+}
+
+.caja-mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+}
+
+.caja-horario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.caja-horario h3 {
+    color: #3ba30f;
+}
+
+.horario {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.caja-horario .horario {
+    font-size: 13px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.caja-siguenos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.caja-siguenos h3 {
+    color: #3ba30f;
+    ;
+    margin-bottom: 18px;
+}
+
+.caja-siguenos img {
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+}
