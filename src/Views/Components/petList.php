@@ -11,7 +11,7 @@
 
        <main>
 
-       <h2 class="subtitle">PETS AVIABLE FOR ADOPTION</h2>
+       <h2 class="subtitle">MASCOTAS EN ADOPCIÓN</h2>
       
       
        <div class="container_cards">
