@@ -40,11 +40,14 @@ require_once("src/Views/Components/layout.php");
      <?php
      require_once("src/Views/Components/footer.php");
      ?>
+
      <script>
           var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
           var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
                return new bootstrap.Popover(popoverTriggerEl)
           })
+     </script>
+     <script src="js/function.js">
      </script>
 </body>
 
