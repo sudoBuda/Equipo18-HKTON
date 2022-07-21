@@ -131,6 +131,18 @@ header {
     border-radius: 3vh;
     transition: 0.3s;
 }
+.btn_dog.active , .btn_cat.active{
+    background-color: #FF5757;
+    box-shadow: 0px 0px 15px #f84949;
+    height: 20.5vh;
+    width: 20.5vh;
+    transition: 0.3s;
+}
+.btn_dog.active .btn_dog_svg , 
+.btn_cat.active .btn_cat_svg{
+    fill:white;
+}
+
 
 .btn_cat:hover,
 .btn_dog:hover {
@@ -150,9 +162,10 @@ header {
 .line {
     width: 100%;
     position: absolute;
-    height: 2px;
+    height: 1px;
     background-color: #FF5757;
     z-index: -1;
+    box-shadow: 0px 0px 5px #f84949;
 }
 
 
