@@ -11,28 +11,35 @@
 
        <main>
 
-       <h1>PET ADOPT</h1>
+       <h1><center>DOG CAT</h1></center>
 
-       <table class="table">
-    <thead>
-            <tr>
-            <th scope="col">Id</th>
-            <th scope="col">Name</th>
-            <th scope="col">Image</th>
-            <th scope="col">Description</th>
-            <th scope="col">Origin</th>
-            <th scope="col">Availability</th>
-       
-            </tr>
-     </thead>
+           <section class="row" >
 
+       <?php
+            foreach ($data ["pet"] as $pet) {
+               echo <<< TAG
+               <article class="col-sm d-flex justify-content-around">
+           
+               <div class="card" style="width: 18rem;">
+               <img src="{$pet->getImage()}" class="card-img-top" alt="...">
+               <div class="card-body">
+                   <h5 class="card-title">{$pet->getName()}</h5>
+                   <p class="card-text">{$pet->getDescription()}</p>
+                   <a href="#" class="btn btn-primary">Favoritos</a>
+            
+                </div>
+                </article>
+   
+               TAG;
+            } ?>
  
-</main>
 
-
-
-
-                  <?php
-            require_once("src/Views/Components/footer.php");
-            ?>
+       
+       </main>
+       
+       <?php
+         require_once("src/Views/Components/footer.php");
+       ?>
+        
     </body>
+</html>

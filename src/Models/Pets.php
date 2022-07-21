@@ -16,14 +16,14 @@
 
 
         private $database;
-        private $table="information_pet";
+        private $table = "information_pet";
 
         public function __construct(int $id=null,string $name="",string $image="",string $description="",string $origin="",string $availability="", string $contact=""){
 
             $this->id = $id;
             $this->name = $name;
             $this->image = $image;
-            $this->name = $description;
+            $this->description = $description;
             $this->origin= $origin;
             $this->availability = $availability;
             $this->contact = $contact;
@@ -41,7 +41,7 @@
             
             $petList = [];
             foreach ($petArray as $pet){
-                  $petItem = new Pets($pet["id"],$pet["name"],$pet["image"],$pet["description"],$pet["contact"]);
+                  $petItem = new Pets($pet["id"],$pet["name"],$pet["image"],$pet["description"],$pet["origin"],$pet["availability"],$pet["contact"]);
                   array_push($petList,$petItem); 
     
             }
@@ -53,18 +53,25 @@
 
         public function getId(){
             return $this->id;
-        }
+         }
     
         public function getName(){
         return $this->name;
          }
         public function getImage(){
             return $this->image;
-        }
+         }
          public function getDescription(){
             return $this->description;
+         }
+         public function getOrigin(){
+            return $this->origin;
+         }
+         public function getAvailability(){
+            return $this->availability;
          }
          public function getContact(){
             return $this->contact;
          }
-        }
+         
+    }

@@ -4,7 +4,7 @@
 
     use App\Models\Pets;
     use App\Core\View;
-use App\Views\Pets as ViewsPets;
+    
 
     class PetsController{
 
@@ -17,7 +17,7 @@ use App\Views\Pets as ViewsPets;
              $pet = new Pets();
 
              $pets = $pet->all();
-             new View("petList",["pets"=> $pets]);
+             new View("petList",["pet"=> $pets]);
         
   
          
