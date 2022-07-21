@@ -133,6 +133,7 @@ header {
     margin: 0vh 5%;
     border-radius: 3vh;
     transition: 0.3s;
+    
 }
 .btn_dog.active , .btn_cat.active{
     background-color: #FF5757;
