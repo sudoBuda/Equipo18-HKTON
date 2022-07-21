@@ -4,7 +4,7 @@
         </div>
             <img src="public/images/logo.png" class="logo">
 
-        <h3 class="subtitle">"No vamos a cambiar el mundo ayudando a un animal, pero almenos el mundo habrá cambiado para el."</h3>
+        <h3 class="subtitle">"No vamos a cambiar el mundo ayudando a un animal, pero al menos el mundo habrá cambiado para el."</h3>
 
         <div class="container_search">
             <input class="input_search" placeholder="¿Buscas algo en específico?">
