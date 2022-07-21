@@ -2,7 +2,7 @@
         <div class="container_favorites">
                 <i class="bi bi-house-heart-fill icon_favorites" onclick=""></i>
         </div>
-            <img src="public/images/logo.png" class="logo">
+            <img src="public/images/logo.png" class="logo slide-in-left">
 
         <h3 class="subtitle">"No vamos a cambiar el mundo ayudando a un animal, pero al menos el mundo habrá cambiado para el."</h3>
 

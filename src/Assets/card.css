@@ -27,11 +27,12 @@
 }
 .btn_favorite{
     background-color: grey;
-    border:0;
+    border: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color:rgb(245, 245, 245);
-
+    color: rgb(245, 245, 245);
+    position: relative;
+    left: 62px;
 }
 .btn_favorite:hover{
     background-color:#FF5757;
@@ -65,4 +66,8 @@
     height: 240px;
 
 
+}
+
+.mailto {
+    text-align: center;
 }

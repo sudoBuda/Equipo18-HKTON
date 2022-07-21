@@ -26,8 +26,9 @@
                     <div class="card-body">
                         <h5 class="card-title pet_name">{$pet->getName()}</h5>
                         <p class="card-text pet_decription">{$pet->getDescription()}</p>
-                        <a href="mailto:{$pet->getContact()}"<p>{$pet->getContact()}</p></a>
-                        <a href="#" class="btn btn-primary btn_favorite"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
+
+                         <a href="mailto:{$pet->getContact()}"> <p class="mailto"> {$pet->getContact()} </p></a>
+                        <a  class="btn btn-primary btn_favorite"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
                     </div>
                     </div>
                 
