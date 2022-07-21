@@ -21,19 +21,18 @@
             foreach ($data ["pet"] as $pet) {
                echo <<< TAG
 
-                    <div div class="card pet_card" style="width: 18rem;" id="open_details">
+               <div class="card pet_card" style="width: 18rem;" id="open_details">
                     <img  src="{$pet->getImage()}" class="card-img-top image_pet"  alt="...">
-                    <div class="card-body card_color">
+                    <div class="card-body">
+
                         <h5 class="card-title pet_name">{$pet->getName()}</h5>
                         <p class="card-text pet_decription">{$pet->getDescription()}</p>
-
-                         <a href="mailto:{$pet->getContact()}"> <p class="mailto"> {$pet->getContact()} </p></a>
-                        <a  class="btn btn-primary btn_favorite" id="btn_favorite_swich"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
+                        <a  class="btn btn-primary btn_favorite"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
+                       
                     </div>
-                    </div>
-                
-   
-               TAG;
+                    <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus" title="{$pet->getContact()}" data-bs-content="658 23 52 87">📱✉️</button>     
+               </div> 
+           TAG;
             } ?>
        </div>
        </main>
@@ -41,6 +40,11 @@
        <?php
          require_once("src/Views/Components/footer.php");
        ?>
-        <script src="js/function.js"></script>
+     <script>
+          var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+          return new bootstrap.Popover(popoverTriggerEl)
+})
+     </script>
     </body>
 </html>

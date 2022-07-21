@@ -15,3 +15,6 @@ addFavorite.addEventListener("click",() => {
     addFavorite.classList.toggle("active_favorite");
 })
 
+close.addEventListener('click', () => {
+  details_container.classList.remove('show');
+});
