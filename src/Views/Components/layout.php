@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="src/Assets/header.css">
     <link rel="stylesheet" href="src/Assets/card.css">
     <link rel="stylesheet" href="src/Assets/footer.css">
+    <link rel="stylesheet" href="src/Assets/bg_animation.css">
 
 
 </head>
