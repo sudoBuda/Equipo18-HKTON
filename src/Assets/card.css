@@ -1,33 +1,39 @@
-.container_cards{
-    display:flex;
+.container_cards {
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100 vw;
 }
-.card_color{
-    background-color:rgb(255, 247, 247);
+
+.card_color {
+    background-color: rgb(255, 247, 247);
 }
-.pet_card{
-    margin:3vh;
-    background-color:#F1F1F1;
+
+.pet_card {
+    margin: 3vh;
+    background-color: #F1F1F1;
     transition: 0.5s;
 }
-.pet_card:hover{
+
+.pet_card:hover {
     box-shadow: 0px 0px 2px black;
     transition: 0.5s;
 }
 
-.pet_name, .pet_description{
+.pet_name,
+.pet_description {
     font-family: 'Montserrat', sans-serif;
 }
-.pet_name{
+
+.pet_name {
     font-weight: bold;
 }
 
-.icon_favorite{
-    padding-right:1vh;
+.icon_favorite {
+    padding-right: 1vh;
 }
-.btn_favorite{
+
+.btn_favorite {
     background-color: grey;
     border: 0;
     font-family: 'Montserrat', sans-serif;
@@ -35,22 +41,25 @@
     color: rgb(245, 245, 245);
     position: relative;
     left: 62px;
-    cursor:pointer;
+    cursor: pointer;
 }
-.btn_favorite:hover{
-    background-color:#FF5757;
-    box-shadow:0px 0px 10px#FF5757;
-    
-}
-.btn_favorite.active_favorite{
-    background-color:#FF5757;
-    box-shadow:0px 0px 10px#FF5757;
+
+.btn_favorite:hover {
+    background-color: #FF5757;
+    box-shadow: 0px 0px 10px#FF5757;
 
 }
 
-.image_pet{
-    max-height:200px;
+.btn_favorite.active_favorite {
+    background-color: #FF5757;
+    box-shadow: 0px 0px 10px#FF5757;
+
 }
+
+.image_pet {
+    max-height: 200px;
+}
+
 /* estilos de el popup */
 
 

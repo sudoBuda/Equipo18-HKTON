@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position:relative;
-    z-index:1;
+    position: relative;
+    z-index: 1;
 }
 
 /* container logo y pestaña de favoritos */
@@ -35,7 +36,7 @@ header {
 .logo {
     height: 30vh;
     width: 30vh;
-    position:relative;
+    position: relative;
 }
 
 /*  */
@@ -52,8 +53,8 @@ header {
     box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
     border-radius: 14px;
     border: none;
-    z-index:4;
-    position:relative;
+    z-index: 4;
+    position: relative;
 }
 
 @media (max-width: 600px) {
@@ -133,18 +134,21 @@ header {
     margin: 0vh 5%;
     border-radius: 3vh;
     transition: 0.3s;
-    
+
 }
-.btn_dog.active , .btn_cat.active{
+
+.btn_dog.active,
+.btn_cat.active {
     background-color: #FF5757;
     box-shadow: 0px 0px 15px #f84949;
     height: 20.5vh;
     width: 20.5vh;
     transition: 0.3s;
 }
-.btn_dog.active .btn_dog_svg , 
-.btn_cat.active .btn_cat_svg{
-    fill:white;
+
+.btn_dog.active .btn_dog_svg,
+.btn_cat.active .btn_cat_svg {
+    fill: white;
 }
 
 
@@ -173,7 +177,36 @@ header {
 }
 
 
-.slide-in-left{-webkit-animation:slide-in-left 1.5s cubic-bezier(.25,.46,.45,.94) both;animation:slide-in-left 1.5s cubic-bezier(.25,.46,.45,.94) both}
+.slide-in-left {
+    -webkit-animation: slide-in-left 1.5s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-in-left 1.5s cubic-bezier(.25, .46, .45, .94) both
+}
 
 
-@-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+@-webkit-keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}
+
+@keyframes slide-in-left {
+    0% {
+        -webkit-transform: translateX(-1000px);
+        transform: translateX(-1000px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+}

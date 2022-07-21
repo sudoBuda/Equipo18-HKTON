@@ -4,8 +4,4 @@ namespace App;
 
 use App\Controllers\PetsController;
 
-$controller = new PetsController(); 
-
-
-
-?>
+$controller = new PetsController();

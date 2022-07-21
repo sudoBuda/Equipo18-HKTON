@@ -1,27 +1,25 @@
 <?php
 
-    namespace App\Controllers;
+namespace App\Controllers;
 
-    use App\Models\Pets;
-    use App\Core\View;
-    
-
-    class PetsController{
-
-        public function __construct(){
-            $this->index();
-        }
+use App\Models\Pets;
+use App\Core\View;
 
 
-        public function index(){
-             $pet = new Pets();
+class PetsController
+{
 
-             $pets = $pet->all();
-             new View("petList",["pet"=> $pets]);
-        
-  
-         
+    public function __construct()
+    {
+        $this->index();
+    }
 
 
+    public function index()
+    {
+        $pet = new Pets();
+
+        $pets = $pet->all();
+        new View("petList", ["pet" => $pets]);
     }
 }

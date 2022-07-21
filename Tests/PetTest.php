@@ -13,5 +13,3 @@ class PetsTest extends TestCase {
         $this->assertEquals("", $pets -> getName() );
     }
 }
-
-?>
