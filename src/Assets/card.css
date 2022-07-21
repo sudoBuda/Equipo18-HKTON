@@ -1,0 +1,61 @@
+.container_cards{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width:100%;
+}
+.pet_card{
+    margin:3vh;
+    background-color:#F1F1F1;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.pet_card:hover{
+    box-shadow: 0px 0px 2px black;
+    transition: 0.5s;
+}
+
+.pet_name, .pet_description{
+    font-family: 'Montserrat', sans-serif;
+}
+.pet_name{
+    font-weight: bold;
+}
+
+.icon_favorite{
+    padding-right:1vh
+}
+.btn_favorite{
+    background-color:#FF5757;
+    border:0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color:rgb(245, 245, 245);
+
+}
+.btn_favorite:hover{
+    background-color:#FF5757;
+    box-shadow:0px 0px 10px#FF5757;
+    
+}
+.btn_favorite:focus{
+    background-color:#bf3f3f;
+    box-shadow:1px 1px 1px#FF5757
+}
+
+/* estilos de el popup */
+.details_container{
+    background-color:white;
+    opacity:0;
+    transition: opacity 0.3s ease;
+    height:40vh;
+    align-items: center;
+    width:100%;
+    max-width: 50%;
+    position:absolute;
+    box-shadow:1px 1px 1px#FF5757
+}
+.show {
+    pointer-events: auto;
+    opacity: 1;
+}

@@ -43,7 +43,6 @@
             foreach ($petArray as $pet){
                   $petItem = new Pets($pet["id"],$pet["name"],$pet["image"],$pet["description"],$pet["origin"],$pet["availability"],$pet["contact"]);
                   array_push($petList,$petItem); 
-    
             }
 
             return $petList;
