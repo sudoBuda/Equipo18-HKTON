@@ -35,7 +35,6 @@
            TAG;
             } ?>
        </div>
-       
        </main>
        
        <?php
