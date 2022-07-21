@@ -23,10 +23,12 @@
 
                     <div div class="card pet_card" style="width: 18rem;" id="open_details">
                     <img  src="{$pet->getImage()}" class="card-img-top image_pet"  alt="...">
-                    <div class="card-body">
+                    <div class="card-body card_color">
                         <h5 class="card-title pet_name">{$pet->getName()}</h5>
                         <p class="card-text pet_decription">{$pet->getDescription()}</p>
-                        <a href="#" class="btn btn-primary btn_favorite"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
+
+                         <a href="mailto:{$pet->getContact()}"> <p class="mailto"> {$pet->getContact()} </p></a>
+                        <a  class="btn btn-primary btn_favorite" id="btn_favorite_swich"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
                     </div>
                     </div>
                 
@@ -34,7 +36,6 @@
                TAG;
             } ?>
        </div>
-       
        </main>
        
        <?php

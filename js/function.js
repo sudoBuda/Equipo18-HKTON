@@ -1,11 +1,17 @@
-const open = document.getElementById('open_details');
-const details_container = document.getElementById('details_container');
-const close = document.getElementById('close');
+const swichDog = document.getElementById("swich_dog") 
 
-open.addEventListener('click', () => {
-  details_container.classList.add('show');  
-});
+swichDog.addEventListener("click",() => {
+    swichDog.classList.toggle("active");
+})
+const swichCat = document.getElementById("swich_cat") 
 
-close.addEventListener('click', () => {
-  details_container.classList.remove('show');
-});
+swichCat.addEventListener("click",() => {
+    swichCat.classList.toggle("active");
+})
+
+const addFavorite = document.getElementById("btn_favorite_swich") 
+
+addFavorite.addEventListener("click",() => {
+    addFavorite.classList.toggle("active_favorite");
+})
+

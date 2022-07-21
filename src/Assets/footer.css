@@ -7,7 +7,7 @@ footer {
 footer div {
     display: flex;
     flex-direction: row;
-    padding: 1% 30px;
+    padding: 1% 40px;
     text-decoration: none;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -69,11 +69,13 @@ iframe {
 
 .caja-siguenos {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding-bottom: 40px;
+    justify-content: flex-start;
+    flex-direction: column;
+
 }
+
 
 .caja-siguenos h3 {
     color: #3ba30f;

@@ -2,7 +2,7 @@
         <div class="container_favorites">
                 <i class="bi bi-house-heart-fill icon_favorites" onclick=""></i>
         </div>
-            <img src="public/images/logo.png" class="logo">
+            <img src="public/images/logo.png" class="logo slide-in-left">
 
         <h3 class="subtitle">"No vamos a cambiar el mundo ayudando a un animal, pero al menos el mundo habrá cambiado para el."</h3>
 
@@ -13,7 +13,7 @@
         </div>
 
         <div class="filter_dog_cat">
-            <button class="btn_dog">
+            <button class="btn_dog" id="swich_dog">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="80px" height="80px" viewBox="0 0 1280.000000 1280.000000" preserveAspectRatio="xMidYMid meet" class="btn_dog_svg">
                     <metadata>
                     Created by potrace 1.15, written by Peter Selinger 2001-2017
@@ -28,7 +28,7 @@
                 </svg>
             </button>
             <div class="line"></div>
-            <button class="btn_cat">
+            <button class="btn_cat" id="swich_cat">
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="100px" height="100px" viewBox="0 0 1280.000000 1280.000000" preserveAspectRatio="xMidYMid meet" class="btn_cat_svg">
                     <metadata>
                     Created by potrace 1.15, written by Peter Selinger 2001-2017

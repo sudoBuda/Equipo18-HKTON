@@ -4,11 +4,13 @@
     flex-wrap: wrap;
     width: 100 vw;
 }
+.card_color{
+    background-color:rgb(255, 247, 247);
+}
 .pet_card{
     margin:3vh;
     background-color:#F1F1F1;
     transition: 0.5s;
-    cursor:pointer;
 }
 .pet_card:hover{
     box-shadow: 0px 0px 2px black;
@@ -23,46 +25,34 @@
 }
 
 .icon_favorite{
-    padding-right:1vh
+    padding-right:1vh;
 }
 .btn_favorite{
     background-color: grey;
-    border:0;
+    border: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    color:rgb(245, 245, 245);
-
+    color: rgb(245, 245, 245);
+    position: relative;
+    left: 62px;
+    cursor:pointer;
 }
 .btn_favorite:hover{
     background-color:#FF5757;
     box-shadow:0px 0px 10px#FF5757;
     
 }
-.btn_favorite:focus{
-    background-color:#bf3f3f;
-    box-shadow:1px 1px 1px#FF5757
+.btn_favorite.active_favorite{
+    background-color:#FF5757;
+    box-shadow:0px 0px 10px#FF5757;
+
 }
 
 /* estilos de el popup */
-.details_container{
-    background-color:white;
-    opacity:0;
-    transition: opacity 0.3s ease;
-    height:40vh;
-    align-items: center;
-    width:100%;
-    max-width: 50%;
-    position:absolute;
-    box-shadow:1px 1px 1px#FF5757
-}
-.show {
-    pointer-events: auto;
-    opacity: 1;
-}
-
-.image_pet{
-    width: 100%;
-    height: 240px;
 
 
+/* estil */
+
+.mailto {
+    text-align: center;
 }
