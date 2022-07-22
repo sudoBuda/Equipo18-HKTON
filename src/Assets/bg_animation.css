@@ -9,54 +9,37 @@
 
 }
 
-.paw_cat {
+.paw_cat_animation{
     height: 60px;
-    animation-duration: 30s;
+    height: 60px;
     animation-name: paw_up;
     position: absolute;
     animation-iteration-count: infinite;
     transition: 0.5s;
-    animation-delay: 4s;
     opacity: 0;
+    animation-duration:35s;
+}
+
+.paw_cat {
+    animation-delay: 4s;
     z-index: 2;
-
-
 }
 
 .paw_cat2 {
-    height: 60px;
 
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    animation-iteration-count: infinite;
-    transition: 0.5s;
     left: 20vw;
     animation-delay: 12s;
-    opacity: 0;
     z-index: 2;
 }
 
 .paw_cat3 {
-    height: 60px;
 
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    animation-iteration-count: infinite;
-    transition: 0.5s;
     left: 50vh;
     opacity: 0;
     z-index: 2;
 }
 
 .paw_cat4 {
-    height: 60px;
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    animation-iteration-count: infinite;
-    transition: 0.5s;
     left: 70vw;
     animation-delay: 15s;
     opacity: 0;
@@ -64,12 +47,6 @@
 }
 
 .paw_cat5 {
-    height: 60px;
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    animation-iteration-count: infinite;
-    transition: 0.5s;
     left: 90vw;
     opacity: 0;
     animation-delay: 17s;
@@ -77,13 +54,6 @@
 }
 
 .paw_cat6 {
-    height: 60px;
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    ;
-    animation-iteration-count: infinite;
-    transition: 0.5s;
     left: 20vw;
     opacity: 0;
     animation-delay: 6s;
@@ -91,12 +61,6 @@
 }
 
 .paw_cat7 {
-    height: 60px;
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    ;
-    animation-iteration-count: infinite;
     transition: 0.5s;
     left: 40vw;
     opacity: 0;
@@ -106,12 +70,7 @@
 }
 
 .paw_cat8 {
-    height: 60px;
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    ;
-    animation-iteration-count: infinite;
+
     transition: 0.5s;
     left: 40vw;
     opacity: 0;
@@ -121,12 +80,6 @@
 }
 
 .paw_cat9 {
-    height: 60px;
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    ;
-    animation-iteration-count: infinite;
     transition: 0.5s;
     left: 60vh;
     opacity: 0;
@@ -136,12 +89,6 @@
 }
 
 .paw_cat10 {
-    height: 60px;
-    animation-duration: 30s;
-    animation-name: paw_up;
-    position: absolute;
-    ;
-    animation-iteration-count: infinite;
     transition: 0.5s;
     left: 10vh;
     opacity: 0;

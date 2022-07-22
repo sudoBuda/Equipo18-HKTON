@@ -28,7 +28,7 @@ require_once("src/Views/Components/layout.php");
                         <h5 class="card-title pet_name">{$pet->getName()}</h5>
                         <p class="card-text pet_decription">{$pet->getDescription()}</p>
                         <a  class="btn btn-primary btn_favorite"><i class="bi bi-house-heart-fill icon_favorite "></i>Favorite</a>
-                       
+
                     </div>
                     <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus" title="{$pet->getContact()}" data-bs-content="658 23 52 87">📱✉️</button>     
                </div> 
